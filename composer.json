@@ -18,12 +18,17 @@
     },
     "require-dev": {
         "ext-intl": "*",
-        "phpunit/phpunit": "^*",
+        "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*"
     },
     "autoload": {
         "psr-4": {
             "Faker\\": "src/Faker/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Faker\\Test\\": "test/Faker/"
         }
     },
     "config": {
