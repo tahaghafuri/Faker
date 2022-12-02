@@ -26,11 +26,6 @@
             "Faker\\": "src/Faker/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Faker\\Test\\": "test/Faker/"
-        }
-    },
     "config": {
         "sort-packages": true
     }
